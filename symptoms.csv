@@ -1,0 +1,9 @@
+symptom,condition,severity,recommendation,medical_attention
+fever,Influenza (Flu),Medium,Rest and stay hydrated. Take paracetamol for fever if prescribed.,Monitor temperature. See a doctor if fever lasts over 3 days.
+cough,Bronchitis,Medium,Drink warm fluids and use a humidifier.,Consult a doctor if you experience wheezing or shortness of breath.
+headache,Migraine,Low,Rest in a dark quiet room. Stay hydrated.,Seek attention if accompanied by vision changes or numbness.
+fatigue,Anemia / Vitamin Deficiency,Low,Ensure a balanced diet rich in iron and get adequate sleep.,Schedule a routine blood test with a physician.
+nausea,Gastroenteritis (Stomach Flu),Low,Follow a bland diet (BRAT) and sip electrolytes.,Seek immediate help if signs of severe dehydration appear.
+sore throat,Pharyngitis (Strep Throat),Medium,Gargle with warm salt water and rest your voice.,Get a throat swab if swallowing becomes highly painful.
+chest pain,Angina / Cardiac Evaluation,High,Stop all physical activity immediately and sit down.,EMERGENCY: Call an ambulance or go to the nearest ER immediately.
+shortness of breath,Asthma Exacerbation,High,Use your rescue inhaler if diagnosed. Remain calm.,EMERGENCY: Seek immediate emergency medical care if breathing fails to improve.

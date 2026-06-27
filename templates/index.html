@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Information Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=1.5">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Healthcare Assistant Dashboard</h1>
+        <button id="themeToggle">🌙 Dark Mode</button>
+    </header>
+
+    <div class="warning">
+        ⚠ Educational intent only. This does not substitute for clinical medical diagnostic decisions.
+    </div>
+
+    <main class="app-layout">
+        <div class="panel-card">
+            <h2>Quick Tags</h2>
+            <div class="tags">
+                <button class="tag">Fever</button>
+                <button class="tag">Cough</button>
+                <button class="tag">Headache</button>
+                <button class="tag">Fatigue</button>
+                <button class="tag">Nausea</button>
+                <button class="tag">Sore Throat</button>
+                <button class="tag">Chest Pain</button>
+            </div>
+
+            <h2>Describe Symptoms Intuitively</h2>
+            <textarea id="symptoms" placeholder="Type naturally, e.g., I'm feeling a severe headache alongside a persistent dry cough..."></textarea>
+            <button id="analyzeBtn">Analyze Symptoms</button>
+            
+            <h2 style="margin-top: 25px;">Recent Evaluation History</h2>
+            <ul id="historyList" class="history-list"></ul>
+        </div>
+
+        <div class="panel-card output-panel">
+            <div>
+                <h2>Global Severity Ranking</h2>
+                <span id="severity" class="severity-pill severity-unknown">Not Analyzed</span>
+            </div>
+
+            <div>
+                <h2>Potential Clinical Conditions</h2>
+                <div id="conditions" class="placeholder-text">Awaiting dynamic text parsing...</div>
+            </div>
+
+            <div>
+                <h2>Care Recommendations</h2>
+                <div id="recommendations" class="placeholder-text">Awaiting dynamic text parsing...</div>
+            </div>
+
+            <div>
+                <h2>Urgency & Attention Guidelines</h2>
+                <div id="medicalAttention" class="placeholder-text">Awaiting dynamic text parsing...</div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}?v=1.5"></script>
+</body>
+</html>

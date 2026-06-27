@@ -1,0 +1,38 @@
+[
+  {
+    "symptom_id": "SYM_001",
+    "symptom_keywords": ["headache", "fever", "body ache", "fatigue"],
+    "possible_conditions": [
+      {"name": "Influenza (Flu)", "confidence": "high"},
+      {"name": "Dengue Fever", "confidence": "medium"},
+      {"name": "Meningitis", "confidence": "low"}
+    ],
+    "severity": "moderate",
+    "urgency": "DOCTOR",
+    "recommendations": [
+      "Rest and stay hydrated",
+      "Take paracetamol for fever",
+      "Monitor for rash, stiff neck, or confusion",
+      "See a doctor if fever persists beyond 3 days"
+    ],
+    "annotator": "TeamMember_A",
+    "reviewed_by": "TeamMember_B"
+  },
+  {
+    "symptom_id": "SYM_002",
+    "symptom_keywords": ["chest pain", "shortness of breath", "sweating", "nausea"],
+    "possible_conditions": [
+      {"name": "Heart Attack", "confidence": "high"},
+      {"name": "Pneumonia", "confidence": "medium"},
+      {"name": "Panic Attack", "confidence": "low"}
+    ],
+    "severity": "severe",
+    "urgency": "EMERGENCY",
+    "recommendations": [
+      "Stop all physical activity immediately",
+      "Go to ER, call ambulance"
+    ],
+    "annotator": "TeamMember_A",
+    "reviewed_by": "TeamMember_B"
+  }
+]
